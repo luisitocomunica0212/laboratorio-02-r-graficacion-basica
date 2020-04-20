@@ -1624,7 +1624,26 @@ print(ca_covid19)</code></pre>
 ## 7  SLV          30          6     123         159
 ## 8  DOM         208        189    3217        3614</code></pre>
 <ol start="2" style="list-style-type: decimal">
-<li><p>(10%) Genere un resumen de los datos con la función <code>summary()</code>.</p></li>
+<li>(10%) Genere un resumen de los datos con la función <code>summary()</code>.</li>
+</ol>
+<pre class="r"><code>summary(ca_covid19)</code></pre>
+<pre><code>##       pais    recuperados       fallecidos        activos       
+##  BLZ    :1   Min.   :  0.00   Min.   :  1.00   Min.   :   3.00  
+##  CRI    :1   1st Qu.:  8.00   1st Qu.:  3.50   1st Qu.:  96.25  
+##  DOM    :1   Median : 24.50   Median :  5.50   Median : 277.00  
+##  GTM    :1   Mean   : 51.62   Mean   : 43.12   Mean   :1005.12  
+##  HND    :1   3rd Qu.: 69.00   3rd Qu.: 52.00   3rd Qu.:1220.50  
+##  NIC    :1   Max.   :208.00   Max.   :189.00   Max.   :3573.00  
+##  (Other):2                                                      
+##   confirmados    
+##  Min.   :   9.0  
+##  1st Qu.: 123.8  
+##  Median : 311.0  
+##  Mean   :1099.9  
+##  3rd Qu.:1373.0  
+##  Max.   :3751.0  
+## </code></pre>
+<ol start="3" style="list-style-type: decimal">
 <li><p>(10%) Con la función <code>barplot()</code>, genere un gráfico de barras de los casos confirmados.</p></li>
 <li><p>(10%) Con la función <code>order()</code>, ordene el data frame por cantidad de casos confirmados y genere de nuevo el gráfico.</p></li>
 <li>(10%) Incluya en el gráfico los siguientes componentes:</li>
